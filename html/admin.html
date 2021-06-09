@@ -1,0 +1,74 @@
+<DOCTYPE HTML>
+	<meta charset = "utf-8" >
+	<html>
+	<head>
+	<link rel="stylesheet" href="../css/admin.css">
+	<script type="text/javascript" src="../java_script/admin.js"></script>
+</head>
+<body>
+	<header><h1>Appartments For Rent</h1>
+	</header>
+	<div class="content">
+		<form id="add">
+			<div class="row">
+				<label for="address">Address: </label>
+				<input type="text" name="address" id="address" required/>
+			</div>
+			<div class="row">
+				<label for="code">Postal Code: </label>
+				<input type="text" name="code" id="code" required>
+			</div>
+			<div class="row">
+				<label for="city">City: </label>
+				<input type="text" name="city" id="city"required/>
+			</div>
+			<div class="row">
+				<label for="size">Size: </label>
+				<input type="number" name="size" id="size" required/>
+			</div>
+			<div class="row">
+				<label for="rooms">Number of Rooms: </label>
+				<input type="number" name="rooms" id="rooms" required/>
+			</div>
+			<div class="row">
+				<label for="bedrooms">Number of Bedrooms: </label>
+				<input type="number" name="bedrooms" id="bedrooms" required/>
+			</div>
+			<div class="row">
+				<label for="type"> Type: </label>
+				<select id="type" name="type">
+					<option value="apartment">apartment</option>
+					<option value="house">house</option>
+				</select>
+			</div>
+			<div class="row">
+				<label for="price">Price: </label>
+				<input type="number" name="price" id="price" required/>
+			</div>
+			<div class="row">
+				<label for="deposit">Deposit: </label>
+				<input type="number" name="deposit" id="deposit" required/>
+			</div>
+			<div class="row">
+				<label for="from">Available from: </label>
+				<input type="date" name="from" id="from" required/>
+			</div>
+			<div class="row">
+				<label for="created">Created: </label>
+				<input type="date" name="created" id="created" required/>
+			</div>
+			  <div class="row add">
+    	<button id="button">ADD</button>
+			</div>
+		</form>
+		<div class="table">
+			<h3>List of Offers</h3>
+			<table id="rent">
+			
+			</table>
+		</div>
+
+
+	</div>
+</body>
+	</html>
