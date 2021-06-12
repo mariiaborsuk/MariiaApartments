@@ -229,5 +229,4 @@ function saveItemsToStorage(offers){
 let offers=getItemsFromStorage();
 document.getElementById("button").addEventListener("click",addFlat)
 renderApartmentsList(offers);
-
 };
